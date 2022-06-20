@@ -1,6 +1,12 @@
 #title {
     background: #d71751;
 }
+
+.container-fluid{
+    padding: 3% 15% ;
+}
+
+
 h1
 {
     font-family: 'Montserrat-black', sans-serif;
