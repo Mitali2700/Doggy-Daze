@@ -109,3 +109,7 @@ h3{
 .card{
     height: 350px;
 }
+
+#pricing{
+    padding: 100px;
+}
