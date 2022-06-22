@@ -56,17 +56,22 @@ h3{
 
 /* Title Image */
 .title-image{
-    width: 60%;
+    /* width: 60%; */
     transform: rotate(25deg);
+   /* Z-Index:  All elements by default having index 0 */
+    position:absolute;
 }
 
 #features{
     padding: 7% 15%;
+    background-color: aliceblue;
+    position: relative;
+    z-index: 1;
 }
 
 .feature-box{
     text-align: center;
-    padding: 5%;
+    padding: 4.5%;
 }
 
 .icon{
@@ -112,4 +117,9 @@ h3{
 
 #pricing{
     padding: 100px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 2%;
 }
