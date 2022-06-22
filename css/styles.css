@@ -1,5 +1,6 @@
 body{
     font-family: "Montserrat";
+    text-align: center;
 }
 
 h1,h2,h3,h4,h5,h6
@@ -22,13 +23,15 @@ h3{
 }
 
 .section-heading{
-    font-size: 3.5rem;
+    font-size: 3rem;
     line-height: 1.5;
+    font-weight: 1000;
 }
 
 #title {
     background: #d71751;
     color: aliceblue;
+    text-align: left;
 }
 
 .container-fluid{
@@ -82,8 +85,12 @@ h3{
     z-index: 1;
 }
 
+.feature-title{
+    font-size: 2rem;
+}
+
 .feature-box{
-    text-align: center;
+    /* text-align: center; */
     padding: 4.5%;
 }
 
@@ -98,7 +105,7 @@ h3{
 
 /******************** TESTIMONIAL-SECTION ********************/
 #testimonials{
-    text-align: center;
+    /* text-align: center; */
     color: aliceblue;
     background-color: #eb3f72;
 }
@@ -113,6 +120,7 @@ h3{
 .testimonial-text{
     font-size: 3rem;
     line-height: 1.5;
+    font-weight: 1000;
 }
 
 .carousel-item{
@@ -121,7 +129,7 @@ h3{
 
 #press{
     background-color: #eb3f72;
-    text-align: center;
+    /* text-align: center; */
     padding-bottom: 2%;
 }
 
@@ -132,13 +140,17 @@ h3{
 
 /************************ PRICING SECTION ************************/
 .card{
-    height: 350px;
+    height: 380px;
 }
 
 #pricing{
     padding: 100px;
-    text-align: center;
+    /* text-align: center; */
 }
+
+/* .pricing-heading{
+    font-weight: 2000;
+} */
 
 .pricing-column{
     padding: 3% 2%;
@@ -147,6 +159,7 @@ h3{
 .price-text{
     font-size: 3rem;
     line-height: 1.5;
+    font-weight: 800;
 }
 
 @media (max-width:1028px) {
@@ -164,7 +177,7 @@ h3{
 #cta{
     background-color: #d71751;
     color: aliceblue;
-    text-align: center;
+    /* text-align: center; */
     
     padding: 7% 15%;
     /* font-size: 3.5rem; */
@@ -181,7 +194,7 @@ h3{
 
 #footer{
     padding: 7% 15%;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .social-icon{
