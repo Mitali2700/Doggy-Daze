@@ -8,7 +8,7 @@ body{
 }
 
 .container-fluid{
-    padding: 3% 15% ;
+    padding: 3% 15% 7%;
 }
 
 h1
@@ -56,10 +56,17 @@ h3{
 
 /* Title Image */
 .title-image{
-    /* width: 60%; */
-    transform: rotate(25deg);
+    /* width: 40%; */
+    /* transform: rotate(25deg); */
    /* Z-Index:  All elements by default having index 0 */
-    position:absolute;
+    /* position:absolute; */
+    width: 20%;
+
+  transform: rotate(25deg);
+
+  position: absolute;
+
+  right: 30%;
 }
 
 #features{
@@ -122,4 +129,32 @@ h3{
 
 .pricing-column{
     padding: 3% 2%;
+}
+
+@media (max-width:1028px) {
+
+#title{
+    text-align: center;
+}
+
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+#cta{
+    background-color: #d71751;
+    color: aliceblue;
+    text-align: center;
+    
+    padding: 7% 15%;
+    /* font-size: 3.5rem; */
+}
+
+.cta-heading{
+    font-family: 'Montserrat-black', sans-serif;
+    font-weight: 1000;
+    font-size: 3.5rem;
+    padding-bottom: 5%;
 }
