@@ -29,7 +29,7 @@ h3{
 }
 
 #title {
-    background: #d71751;
+    background: #048ca1;
     color: aliceblue;
     text-align: left;
 }
@@ -95,19 +95,19 @@ h3{
 }
 
 .icon{
-    color: #eb3f72;
+    color: #00AFC1;
     padding-bottom: 1rem;
 }
 
 .icon:hover{
-    color: #d71751;
+    color: #048ca1;
 }
 
 /******************** TESTIMONIAL-SECTION ********************/
 #testimonials{
     /* text-align: center; */
     color: aliceblue;
-    background-color: #eb3f72;
+    background-color: #00AFC1;
 }
 
 .testimonial-img
@@ -128,7 +128,7 @@ h3{
 }
 
 #press{
-    background-color: #eb3f72;
+    background-color: #00AFC1;
     /* text-align: center; */
     padding-bottom: 2%;
 }
@@ -175,7 +175,7 @@ h3{
 }
 
 #cta{
-    background-color: #d71751;
+    background-color: #048ca1;
     color: aliceblue;
     /* text-align: center; */
     
