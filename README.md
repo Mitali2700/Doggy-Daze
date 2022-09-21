@@ -14,7 +14,7 @@ I have designed a homepage website which provide details of the application to t
 
 # Tools and Techniques
 
-I have used HTML, CSS3, and Bootsrtrap 4 and 5 in this website. Bootstrap is a front-end framework used to create modern websites and web apps.I have use bootstrap components like Carousel, Card, Buttons, Navbar etc.
+I have used HTML, CSS3, and Bootsrtrap 4 and 5 in this website. Bootstrap is a front-end framework used to create modern websites and web apps. I have use bootstrap components like Carousel, Card, Buttons, Navbar etc.
 
 
 
